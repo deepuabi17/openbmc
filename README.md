@@ -112,7 +112,7 @@ make
 #### step 4
 Built file will be located at: arm-softmmu/qemu-system-arm
 
-This is contributed by Deepika E
+This is contributed by Deepika Elumalai
 
 
  
