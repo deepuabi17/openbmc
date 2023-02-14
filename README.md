@@ -96,6 +96,7 @@ apt install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev
 apt-get install libvirt libvirt-bin bridge-utils uml-utilities qemu-system-common
 ```
 #### step 2
+```sh
 git clone https://github.com/openbmc/qemu.git
 cd qemu
 git submodule update --init dtc
@@ -103,9 +104,12 @@ mkdir build
 cd build
 ../configure --target-list=arm-softmmu
 make
+```
 #### step 3
 Built file will be located at: arm-softmmu/qemu-system-arm
-refer: https://github.com/openbmc/docs/blob/master/cheatsheet.md
+
+This is contributed by Deepika E
+
 
  
  
