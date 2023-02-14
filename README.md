@@ -106,6 +106,10 @@ cd build
 make
 ```
 #### step 3
+```sh
+./qemu-system-arm -m 1024 -M ast2600-evb -nographic     -drive file=./obmc-phosphor-image-evb-ast2600.static.mtd,format=raw,if=mtd
+```
+####step 4
 Built file will be located at: arm-softmmu/qemu-system-arm
 
 This is contributed by Deepika E
